@@ -66,7 +66,6 @@ CREATE TABLE IF NOT EXISTS `prodamjuntocomcidadao`.`mensagem` (
   `tipo_id` VARCHAR(36) NOT NULL,
   `local_id` VARCHAR(36) NOT NULL,
   `tema_id` VARCHAR(36) NOT NULL,
-  `data` DATETIME NOT NULL,
   PRIMARY KEY (`id`, `tipo_id`, `local_id`, `tema_id`),
   INDEX `fk_mensagem_tipo_idx` (`tipo_id` ASC) VISIBLE,
   INDEX `fk_mensagem_local1_idx` (`local_id` ASC) VISIBLE,
