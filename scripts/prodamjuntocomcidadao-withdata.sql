@@ -67,6 +67,7 @@ CREATE TABLE IF NOT EXISTS `prodamjuntocomcidadao`.`mensagem` (
   `local_id` VARCHAR(36) NULL,
   `tema_id` VARCHAR(36) NULL,
   `data` VARCHAR(50) NOT NULL,
+  `sentiment_score` DOUBLE NULL,
   PRIMARY KEY (`id`),
   INDEX `fk_mensagem_tipo_idx` (`tipo_id` ASC) VISIBLE,
   INDEX `fk_mensagem_local1_idx` (`local_id` ASC) VISIBLE,
