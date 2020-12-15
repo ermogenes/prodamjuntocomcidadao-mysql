@@ -1,6 +1,6 @@
 # 🏙 prodamjuntocomcidadao-mysql
 
-`ProdamJuntoComCidadao` - Banco de dados para o projeto [prodamjuntocomcidadao], Hackathon Prodam 2020/11, em MySQL.
+🥇 `ProdamJuntoComCidadao` - Banco de dados para o projeto [prodamjuntocomcidadao], VENCEDOR do Hackathon Prodam 2020/11, em MySQL.
 
 ## Como carregar
 
